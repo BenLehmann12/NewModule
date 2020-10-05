@@ -23,7 +23,7 @@ def perimeter(a_list):
     elif len(a_list) == 2:
         perim = 2*(a_list[0] + a_list[1])    #If the list has 2 items, add them together and multiply by 2
     else:
-        perim = 0  #If nothing, return 0
+        perim = 0 #If nothing, return 0
     return perim
 
 if __name__ == "__main__":
