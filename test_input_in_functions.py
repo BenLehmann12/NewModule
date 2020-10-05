@@ -8,7 +8,7 @@ class MyTestCase(unittest.TestCase):
     def test_below(self):
         self.assertEqual(validate.test_score("Chem",-1),validate.test_score("Chem",-1))
     def test_score_input_name(self):
-        self.assertEqual(validate.test_score("Math"),validate.test_score("Math"))
+        self.assertEqual(validate.test_score("Chem"),validate.test_score("Chem"))
     def test_above(self):
         self.assertEqual(validate.test_score("Chem", 104), validate.test_score("Chem", 104))
     def test_invalid_message(self):
