@@ -10,7 +10,7 @@ class MyTestCase(unittest.TestCase):
     def test_above(self):
         self.assertEqual(validate.test_score("Chem", 104), validate.test_score("Chem", 104))
     def test_invalid_message(self):
-        self.assertEqual(validate.test_score("Chem",98, "Bad Input"),validate.test_score("Chem",98, "Bad Input"))
+        elf.assertEqual(validate.test_score("Chem",98, "Bad Input"),validate.test_score("Chem",98, "Bad Input"))
 
 
 
